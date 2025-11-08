@@ -8,7 +8,7 @@ import os
 from ultralytics import YOLO
 import itertools
 
-MODEL_PATH = "C:/Users/Admin/Downloads/NCSP730 Test 2 (83% Accuracy)/best.pt"
+MODEL_PATH = "C:/Users/Admin/Downloads/NCSP730 Test 1 (83% Accuracy)/best.pt"
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(f"Model not found at {MODEL_PATH}")
 
